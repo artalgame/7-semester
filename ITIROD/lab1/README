@@ -1,0 +1,6 @@
+1. helloWorld. Создать 2 класса, в двух различных пакетах. Скомпилировать в консоли, запустить из-под консоли.
+
+How to compile
+1)go to com.artalgame.lab1.hello dir and run javac ..\World.java Hello.java
+2)go to root directory(under com) and run java com.artalgame.lab1.hello.Hello
+See Hello world!
