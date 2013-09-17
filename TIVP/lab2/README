@@ -1,0 +1,70 @@
+Requirements for test application
+
+General: Test application is purposed for collecting information about families, i.e. Husband, Wife and Children. 
+
+1. Application should be supported by all versions of all operation systems. 
+
+2. Each family’s information (called ‘family database’) should be contained within 1 file, which can be saved with empty fields.
+3. Several applications should be able to be launched simultaneously.
+
+4. When starting the Application the window should contain menu with three hinted standard buttons (New Database, Open Database, Save Database) and General tab should be enabled (see Sketch 1). 
+4.1 These “New, Open, Save” buttons should be eligible also for other three tabs: Husband, Wife, Children. Button Save should be disabled until the user clicks on New (Open) button.
+
+5. To create a new family database the user should click on New button. The user might fill in Description (see BR 2) of a family and select Date of marriage using Calendar (BR 1).
+
+6. To open an existing database the user should click on Open button, select from a dialog form and click on OK
+6.1 If the user is editing new (or opened) database and then clicks on New (or Open) button the application should propose to Save the current database (changes).
+
+7. To save a current database the user should click on Save button. 
+	7.1 The saved database name should be clearly visible for the User.
+	7.2 If opened database is not edited yet, the Save button should be disabled.
+	7.3 If the user saves database under the name which already exists in the path, the application should send the alert message. Alert message is TBD (To Be Determined). 
+
+8. Ability to select different languages in application is optional.
+
+9. The application allows only fill information about family and save it in a database. Application doesn’t allow working with existing database.
+
+10. To fill in the information about a husband the user should click on Husband tab (see Sketch 2)
+10.1 The following attributes of Husband might be filled in: First Name, Middle Name, Last Name (see BR 3), Birth Day (BR 1).
+10.2 The field Age has default value. The field age shouldn’t be editable. It should be calculated by application as soon as Birth Day is filled in.
+
+11. The application shall support functionality to enter full information about wife and these details shall be stored in a database. 
+
+12. To fill in the information about children the user should click on Children tab (see Sketch 3).
+
+13. The table (2 rows and 3 columns) with children should be empty in a new database. These 3 columns should have names “Name” and “Height” consequently.
+13.1 The cells in the table are not editable, but they can be selected.
+
+14. The user is able to insert more than one child.
+
+15. Scrolling functionality should be available on this page.
+
+16. The screen Children should have three hinted buttons Add Child, Del Child, Edit Child. 
+	16.1 If the table has no records Del Child button should be disabled.
+	16.2 Add button should be always enabled
+
+17. When the user clicks on Add Child, the new screen should appear with 3 Attributes:
+-	Name (see BR 3)
+-	Height (see BR 4)
+-	Birth Day (see BR 2) 17.1 If the user clicks on OK the new record should appear in the table filled with filled attributes.
+17.2 If the user clicks on Cancel the table should be with no changes.
+
+18. To delete a child the user should select a record to delete and click on Del Child button. When the user clicks on this button the message should appear.  If the user clicks on OK, the record should be deleted. If the user clicks on Cancel the record shouldn’t be deleted.
+18.1 After successful record deletion User can edit only “Birth Day” field (not “Name” or “Height” field) for this record.
+
+19. If the user clicks on Edit Child button the screen with 3 attributes should appear. If the user clicks on OK, the changes should be applied to the table, if clicking on Cancel button then changes shouldn’t be applied.
+	
+
+BR 1. The field of date should have the date format. Other format should be ignored by the application. Date can be blank. The date can be typed manually or selected using the Calendar pop-up. The Calendar should have normal size and be user-friendly.
+
+BR 2. Application allows to enter alpha and others characters to the field
+-	Field should be of maximum length 50
+-	Field can be blank
+
+
+BR 4. Field should be alphanumerical,
+-	should be maximum 300 cm
+-	measuring should be in cm (label cm should exist in the form)
+-	should be entered manually or using Calculator pop-up. Calculator should have standard Windows UI
+-	can be blank
+

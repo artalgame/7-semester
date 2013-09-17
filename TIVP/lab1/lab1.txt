@@ -1,0 +1,49 @@
+Home Task: “Triangle testing”
+The program reads three integer values from a console. The three values are interpreted as representing the lengths of the sides of a triangle. The program prints a message that states whether the triangle is scalene (неравносторонний), isosceles (равнобедренный), or equilateral (равносторонний).
+•	Write a set of tests.
+•	Please hand the task ……… ( last date when we accept answers
+
+
+Name: _____________________________________________________
+
+Tests:
+
+1.a != null
+
+2.b != null
+
+3.c != null
+
+4.a is a number
+
+5.b is a number
+
+6.c is a number
+
+7.a>0
+
+8.b>0
+
+9.c>0
+
+10.a+b>c
+
+11.a+c>b
+
+12.b+c>a
+
+13. a==b
+
+14.a==c
+
+15.b==c
+
+16.
+
+17._____________________________________________________________________
+
+18._____________________________________________________________________
+
+19._____________________________________________________________________
+
+20._____________________________________________________________________
