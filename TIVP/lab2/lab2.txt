@@ -1,0 +1,22 @@
+NAME: Alexander Korolchuk
+
+Task 1: What’s wrong with requirements?
+Find errors in requirements; describe these errors; define the types of found errors.
+
+Requirement’s Number	What’s wrong with the requirement?
+1.	Unreal to make an application for all OS
+4.1.	Need to disable fields too
+6.1.	It is better to propose user to save database while closing if changed
+7.1.	It is better the name to be always specified by user
+7.3.	It is more useful to do it with standard system methods
+8.	The list of languages should be specified 
+9.	Application can open an existing database.
+10.1.	BR3 is absent
+11.	It is better to do the same for a husband
+13.	The number of rows is arbitrary.
+13.	Name of third column is absent
+15.	This requirement must be sub-item of requirement number 13.
+16.1.	Edit Child also should be disabled.
+18.1.	Deleted record can not be edited
+BR4.	The format is not specified
+
