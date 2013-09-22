@@ -1,4 +1,4 @@
-NAME: Alexander Korolchuk
+NAME: Alexander Korolchuk 052002
 
 Task 1: What’s wrong with requirements?
 Find errors in requirements; describe these errors; define the types of found errors.
