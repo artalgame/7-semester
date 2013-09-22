@@ -4,7 +4,7 @@ The program reads three integer values from a console. The three values are inte
 •	Please hand the task ……… ( last date when we accept answers
 
 
-Name: _____________________________________________________
+Name: Alexander Korolchuk
 
 Tests:
 
@@ -31,19 +31,4 @@ Tests:
 11.a+c>b
 
 12.b+c>a
-
-13. a==b
-
-14.a==c
-
-15.b==c
-
-16.
-
-17._____________________________________________________________________
-
-18._____________________________________________________________________
-
-19._____________________________________________________________________
-
-20._____________________________________________________________________
+Before we have tested the correctness of the data.

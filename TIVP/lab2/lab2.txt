@@ -5,10 +5,9 @@ Find errors in requirements; describe these errors; define the types of found er
 
 Requirement’s Number	What’s wrong with the requirement?
 1.	Unreal to make an application for all OS
-4.1.	Need to disable fields too
-6.1.	It is better to propose user to save database while closing if changed
+4.1.	Need to disable fields too. Need to disable tabs all tabs too - there are no sense to have these tabs without posibility to save input info .
+6.1.	It is better to propose user to save database while closing if current database was changed
 7.1.	It is better the name to be always specified by user
-7.3.	It is more useful to do it with standard system methods
 8.	The list of languages should be specified 
 9.	Application can open an existing database.
 10.1.	BR3 is absent
@@ -17,6 +16,8 @@ Requirement’s Number	What’s wrong with the requirement?
 13.	Name of third column is absent
 15.	This requirement must be sub-item of requirement number 13.
 16.1.	Edit Child also should be disabled.
+17. BR3 is absent
 18.1.	Deleted record can not be edited
+19 Should be like in requirement 17
 BR4.	The format is not specified
 
