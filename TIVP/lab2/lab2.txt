@@ -21,3 +21,16 @@ Requirement’s Number	What’s wrong with the requirement?
 19 Should be like in requirement 17
 BR4.	The format is not specified
 
+Advantages: 
+	1)Paragraphs
+	2)Bussiness language
+	3) Appendixes
+	4) Title 
+Disadvantages: 
+	1) Table of contents is absent
+	2) Deadline and scope is absent
+	3) No sections, subsections and logical partion
+	4) Contacts of responsible person is absent
+    5) Some structure, technical and logical mistakes(please see before)
+
+and so on
