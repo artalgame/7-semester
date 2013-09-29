@@ -1,6 +1,5 @@
 package com.artalgame.lab2;
 
-import java.io.Console;
 import java.util.AbstractList;
 
 public abstract class Matrix {

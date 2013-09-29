@@ -1,0 +1,10 @@
+USE TEST_DB
+GO
+CREATE TABLE ORDERS
+(
+	OrderID int PRIMARY KEY NOT NULL DEFAULT 0,
+	Date date NOT NULL,
+	Description text
+);
+GO
+	

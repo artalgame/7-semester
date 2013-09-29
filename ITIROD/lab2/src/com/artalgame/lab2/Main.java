@@ -1,7 +1,6 @@
 package com.artalgame.lab2;
 
-import java.sql.Time;
-import java.util.Timer;
+import java.io.IOException;
 
 public class Main {
 
@@ -11,35 +10,27 @@ public class Main {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Matrix zeroLinkedMatrix = LinkedMatrix.getZeroMatrix(4);
-		Matrix.drawMatrix(zeroLinkedMatrix, "Zero LinkedMatrix");
 		
 		Matrix zeroArrayMatrix = ArrayMatrix.getZeroMatrix(4);
-		Matrix.drawMatrix(zeroArrayMatrix, "Zero ArrayMatrix");
 		
 		Matrix identityLinkedMatrix = LinkedMatrix.getIdentityMatrix(4);
-		Matrix.drawMatrix(identityLinkedMatrix, "Identity LinkedMatrix");
 		
 		Matrix identityArrayMatrix = ArrayMatrix.getIdentityMatrix(4);
-		Matrix.drawMatrix(identityArrayMatrix, "Identity ArrayMatrix");
 		
 		Matrix randomLinkedMatrix = LinkedMatrix.getRandomMatrix(4, 4);
-		Matrix.drawMatrix(randomLinkedMatrix, "random LinkedMatrix");
+		Matrix.drawMatrix(randomLinkedMatrix, "random LinkedMatrix = m1");
 		
 		Matrix randomArrayMatrix = ArrayMatrix.getRandomMatrix(4, 4);
-		Matrix.drawMatrix(randomArrayMatrix, "random ArrayMatrix");
+		Matrix.drawMatrix(randomArrayMatrix, "random ArrayMatrix = m2");
 		
 		Matrix res1 = randomLinkedMatrix.multiplyBy(identityArrayMatrix);
-		Matrix.drawMatrix(res1, "res1");
-		
-		Matrix res2 = randomArrayMatrix.multiplyBy(identityLinkedMatrix);
-		Matrix.drawMatrix(res2, "res2");
-		
-		Matrix res3 = randomLinkedMatrix.multiplyBy(zeroArrayMatrix);
-		Matrix.drawMatrix(res3, "res3");
+		Matrix.drawMatrix(res1, "multiply mat1 to identityMatrix");	
 		
 		Matrix res4 = randomArrayMatrix.multiplyBy(zeroLinkedMatrix);
-		Matrix.drawMatrix(res4, "res4");
+		Matrix.drawMatrix(res4, "multiply m2 to zeroMatrix");
 		
+		Matrix res5 = randomArrayMatrix.multiplyBy(randomLinkedMatrix);
+		Matrix.drawMatrix(res5, "multily mat2 to mat1");
 		
 		Matrix random1 = LinkedMatrix.getRandomMatrix(100, 100);
 		Matrix random2 = LinkedMatrix.getRandomMatrix(100, 100);
@@ -58,7 +49,6 @@ public class Main {
 		endTime = System.nanoTime();
 		duration = endTime - startTime;
 		System.out.println("ArrayMatrixes multiply duration have been " + duration/1000000000 +"."+ duration%1000000000 + "s");
-		
 	}
 
 }

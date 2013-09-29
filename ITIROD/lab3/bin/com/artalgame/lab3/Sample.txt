@@ -1,0 +1,123 @@
+
+Text file
+From Wikipedia, the free encyclopedia
+For texting language, see SMS language.
+
+
+A stylized iconic depiction of a CSV-formatted text file.
+A text file (sometimes spelled "textfile": an old alternative name is "flatfile") is a kind of computer file that is structured as a sequence of lines of electronic text. A text file exists within a computer file system. The end of a text file is often denoted by placing one or more special characters, known as an end-of-file marker, after the last line in a text file.
+"Text file" refers to a type of container, while plain text refers to a type of content. Text files can contain plain text, but they are not limited to such.
+At a generic level of description, there are two kinds of computer files: text files and binary files.[1]
+Contents  [hide] 
+1 Data storage
+2 Formats
+2.1 ASCII
+2.2 UTF-8
+2.3 MIME
+2.4 .TXT
+2.5 .TEXT
+2.6 Standard Windows .txt files
+3 Standardisation
+4 Rendering
+5 See also
+6 Notes and references
+7 External links
+Data storage[edit]
+
+Because of their simplicity, text files are commonly used for storage of information. They avoid some of the problems encountered with other file formats, such as endianness, padding bytes, or differences in the number of bytes in a machine word. Further, when data corruption occurs in a text file, it is often easier to recover and continue processing the remaining contents. A disadvantage of text files is that they usually have a low entropy, meaning that the information occupies more storage than is strictly necessary.
+A simple text file needs no additional metadata to assist the reader in interpretation, and therefore may contain no data at all, which is a case of zero byte file.
+Formats[edit]
+
+ASCII[edit]
+The ASCII standard allows ASCII-only text files (unlike most other file types) to be freely interchanged and readable on Unix, Macintosh, Microsoft Windows, DOS, and other systems. These differ in their preferred line ending convention and their interpretation of values outside the ASCII range (their character encoding).
+UTF-8[edit]
+In English context text files can be uniquely ASCII, when in an international context text files are usually 8 bits permissive allowing storage of native texts.
+In those international context, a Byte Order Mark can appear in start of file to differentiate UTF-8 encoding from legacy regional encoding.[2]
+MIME[edit]
+Text files usually have the MIME type "text/plain", usually with additional information indicating an encoding. Prior to the advent of Mac OS X, the Mac OS system regarded the content of a file (the data fork) to be a text file when its resource fork indicated that the type of the file was "TEXT". Under the Microsoft Windows operating system, a file is regarded as a text file if the suffix of the name of the file (the "extension") is "txt". However, many other suffixes are used for text files with specific purposes. For example, source code for computer programs is usually kept in text files that have file name suffixes indicating the programming language in which the source is written.
+.TXT[edit]
+.txt is a file format for files consisting of text usually containing very little formatting (e.g., no bolding or italics). The precise definition of the .txt format is not specified, but typically matches the format accepted by the system terminal or simple text editor. Files with the .txt extension can easily be read or opened by any program that reads text and, for that reason, are considered universal (or platform independent).
+The ASCII character set is the most common format for English-language text files, and is generally assumed to be the default file format in many situations. For accented and other non-ASCII characters, it is necessary to choose a character encoding. In many systems, this is chosen on the basis of the default locale setting on the computer it is read on. Common character encodings include ISO 8859-1 for many European languages.
+Because many encodings have only a limited repertoire of characters, they are often only usable to represent text in a limited subset of human languages. Unicode is an attempt to create a common standard for representing all known languages, and most known character sets are subsets of the very large Unicode character set. Although there are multiple character encodings available for Unicode, the most common is UTF-8, which has the advantage of being backwards-compatible with ASCII: that is, every ASCII text file is also a UTF-8 text file with identical meaning.
+The main issue between pure ASCII and pure UTF-8 is limited to the presence or absence of the BOM. According to Unicode Microsoft protocol for txt files use UTF-8.
+.TEXT[edit]
+.text is an alternative file extension to .txt.
+Standard Windows .txt files[edit]
+MS-DOS and Windows use a common text file format, with each line of text separated by a two-character combination: CR and LF, which have ASCII codes 13 and 10. It is common for the last line of text not to be terminated with a CR-LF marker, and many text editors (including Notepad) do not automatically insert one on the last line.
+Most Windows text files use a form of ANSI, OEM or Unicode encoding. What Windows terminology calls "ANSI encodings" are usually single-byte ISO-8859 encodings, except for in locales such as Chinese, Japanese and Korean that require double-byte character sets. ANSI encodings were traditionally used as default system locales within Windows, before the transition to Unicode. By contrast, OEM encodings, also known as MS-DOS code pages, were defined by IBM for use in the original IBM PC text mode display system. They typically include graphical and line-drawing characters common in (possibly full-screen) MS-DOS applications. Newer Windows text files may use a Unicode encoding such as UTF-16LE or UTF-8, with Byte Order Mark.
+Standardisation[edit]
+
+POSIX defines a text file as a file that contains characters organized into zero or more lines.[3]
+POSIX defines a printable file as a text file whose characters are printable or space or backspace according to regional rules. This excludes control characters, which are not printable.[4]
+Rendering[edit]
+
+When opened by a text editor, human-readable content is presented to the user. This often consists of the file's plain text visible to the user. Depending on the application, control codes may be rendered either as literal instructions acted upon by the editor, or as visible escape characters that can be edited as plain text. Though there may be plain text in a text file, control characters within the file (especially the end-of-file character) can render the plain text unseen by a particular method.
+See also[edit]
+
+List of file formats
+File extensions
+ASCII
+EBCDIC
+Newline
+Text editor
+Unicode
+Notes and references[edit]
+
+Jump up ^ Lewis, John (2006). Computer Science Illuminated. Jones and Bartlett. ISBN 0-7637-4149-3.
+Jump up ^ http://msdn.microsoft.com/en-us/library/windows/desktop/dd374101%28v=vs.85%29.aspx
+Jump up ^ http://pubs.opengroup.org/onlinepubs/9699919799/basedefs/V1_chap03.html#tag_03_395
+Jump up ^ http://pubs.opengroup.org/onlinepubs/9699919799/basedefs/V1_chap03.html#tag_03_282
+External links[edit]
+
+C2: the Power of Plain Text
+Categories: Text file formatsComputer data
+Navigation menu
+Create accountLog inArticleTalkReadEditView history
+Search
+Main page
+Contents
+Featured content
+Current events
+Random article
+Donate to Wikipedia
+Interaction
+Help
+About Wikipedia
+Community portal
+Recent changes
+Contact page
+Toolbox
+Print/export
+Languages
+العربية
+Беларуская
+Česky
+Deutsch
+Eesti
+Ελληνικά
+Español
+فارسی
+Français
+한국어
+Bahasa Indonesia
+Italiano
+עברית
+Қазақша
+Magyar
+日本語
+Norsk bokmål
+Polski
+Português
+Română
+Русский
+Simple English
+Slovenčina
+Suomi
+Svenska
+Українська
+中文
+Edit links
+This page was last modified on 23 September 2013 at 21:17.
+Text is available under the Creative Commons Attribution-ShareAlike License; additional terms may apply. By using this site, you agree to the Terms of Use and Privacy Policy. 
+Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+Privacy policyAbout WikipediaDisclaimersContact WikipediaDevelopersMobile viewWikimedia Foundation Powered by MediaWiki
