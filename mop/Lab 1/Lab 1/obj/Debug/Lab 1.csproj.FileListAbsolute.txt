@@ -1,0 +1,24 @@
+E:\Info\Optimization methods\Labs\Lab 1\Lab 1\bin\Debug\Lab 1.exe.config
+E:\Info\Optimization methods\Labs\Lab 1\Lab 1\bin\Debug\Lab 1.exe
+E:\Info\Optimization methods\Labs\Lab 1\Lab 1\bin\Debug\Lab 1.pdb
+E:\Info\Optimization methods\Labs\Lab 1\Lab 1\bin\Debug\MathNet.Numerics.dll
+E:\Info\Optimization methods\Labs\Lab 1\Lab 1\bin\Debug\MathNet.Numerics.IO.dll
+E:\Info\Optimization methods\Labs\Lab 1\Lab 1\bin\Debug\MathNet.Numerics.pdb
+E:\Info\Optimization methods\Labs\Lab 1\Lab 1\bin\Debug\MathNet.Numerics.xml
+E:\Info\Optimization methods\Labs\Lab 1\Lab 1\bin\Debug\MathNet.Numerics.IO.pdb
+E:\Info\Optimization methods\Labs\Lab 1\Lab 1\bin\Debug\MathNet.Numerics.IO.xml
+E:\Info\Optimization methods\Labs\Lab 1\Lab 1\obj\Debug\Lab 1.csprojResolveAssemblyReference.cache
+E:\Info\Optimization methods\Labs\Lab 1\Lab 1\obj\Debug\Lab 1.exe
+E:\Info\Optimization methods\Labs\Lab 1\Lab 1\obj\Debug\Lab 1.pdb
+E:\Cloud\Google Диск\University\7 semestr\mop\LeraRubakLab 1\Lab 1\Lab 1\bin\Debug\Lab 1.exe.config
+E:\Cloud\Google Диск\University\7 semestr\mop\LeraRubakLab 1\Lab 1\Lab 1\bin\Debug\Lab 1.exe
+E:\Cloud\Google Диск\University\7 semestr\mop\LeraRubakLab 1\Lab 1\Lab 1\bin\Debug\Lab 1.pdb
+E:\Cloud\Google Диск\University\7 semestr\mop\LeraRubakLab 1\Lab 1\Lab 1\bin\Debug\MathNet.Numerics.dll
+E:\Cloud\Google Диск\University\7 semestr\mop\LeraRubakLab 1\Lab 1\Lab 1\bin\Debug\MathNet.Numerics.IO.dll
+E:\Cloud\Google Диск\University\7 semestr\mop\LeraRubakLab 1\Lab 1\Lab 1\bin\Debug\MathNet.Numerics.pdb
+E:\Cloud\Google Диск\University\7 semestr\mop\LeraRubakLab 1\Lab 1\Lab 1\bin\Debug\MathNet.Numerics.xml
+E:\Cloud\Google Диск\University\7 semestr\mop\LeraRubakLab 1\Lab 1\Lab 1\bin\Debug\MathNet.Numerics.IO.pdb
+E:\Cloud\Google Диск\University\7 semestr\mop\LeraRubakLab 1\Lab 1\Lab 1\bin\Debug\MathNet.Numerics.IO.xml
+E:\Cloud\Google Диск\University\7 semestr\mop\LeraRubakLab 1\Lab 1\Lab 1\obj\Debug\Lab 1.csprojResolveAssemblyReference.cache
+E:\Cloud\Google Диск\University\7 semestr\mop\LeraRubakLab 1\Lab 1\Lab 1\obj\Debug\Lab 1.exe
+E:\Cloud\Google Диск\University\7 semestr\mop\LeraRubakLab 1\Lab 1\Lab 1\obj\Debug\Lab 1.pdb
