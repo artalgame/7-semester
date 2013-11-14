@@ -1,0 +1,1 @@
+java -classpath ./bin org.vabishchevich.lab5.Main
