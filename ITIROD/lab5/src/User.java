@@ -15,12 +15,13 @@ public class User {
 	
 	public User(ResultSet rs) throws SQLException
 	{
-		rs.next();
-		Id = rs.getInt(1);
-		Name = rs.getString(2);
-		Height = rs.getInt(3);
-		Weight = rs.getInt(4);
-			
+		if(rs.next())
+		{
+			Id = rs.getInt(1);
+			Name = rs.getString(2);
+			Height = rs.getInt(3);
+			Weight = rs.getInt(4);
+		}	
 		try {
 			rs.close();
 		} catch (SQLException e) {
