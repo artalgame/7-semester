@@ -2,41 +2,44 @@ import java.sql.*;
 
 public class Main {
 
-   public static void main(String[] args) {
-
-      // Create a variable for the connection string.
-      String connectionUrl = "jdbc:sqlserver://localhost:1433;" +
-         "databaseName=TEST_DB;user=admin;password=sql";
-
-      // Declare the JDBC objects.
-      Connection con = null;
-      Statement stmt = null;
-      ResultSet rs = null;
-
-      try {
-         // Establish the connection.
-         Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
-         con = DriverManager.getConnection(connectionUrl);
-
-         // Create and execute an SQL statement that returns some data.
-         String SQL = "SELECT TOP 10 * FROM Person.Contact";
-         stmt = con.createStatement();
-         rs = stmt.executeQuery(SQL);
-
-         // Iterate through the data in the result set and display it.
-         while (rs.next()) {
-            System.out.println(rs.getString(4) + " " + rs.getString(6));
-         }
-      }
-
-      // Handle any errors that may have occurred.
-      catch (Exception e) {
-         e.printStackTrace();
-      }
-      finally {
-         if (rs != null) try { rs.close(); } catch(Exception e) {}
-         if (stmt != null) try { stmt.close(); } catch(Exception e) {}
-         if (con != null) try { con.close(); } catch(Exception e) {}
-      }
+   public static void main(String[] args) throws SQLException {
+	User u1 = new User();
+	u1.Id=1;
+	u1.Name="Sasha";
+	u1.Height=186;
+	u1.Weight=83;
+	
+	User u2 = new User();
+	u2.Id=2;
+	u2.Name="Dima";
+	u2.Height=175;
+	u2.Weight=65;
+	
+	User u3 = new User();
+	u3.Id=3;
+	u3.Name="Vadim";
+	u3.Height=176;
+	u3.Weight=79;
+	
+	 DataBase db = new DataBase();
+	 db.cleanTable();
+	 db.insertUser(u1);
+	 db.insertUser(u2);
+	 db.insertUser(u3);
+	 
+	 db.printState();
+	 
+	 u1.Name="Shura";
+	 db.updateUser(u1);
+	 
+	 db.printState();
+	 
+	 db.deleteUser(u2.Id);
+	 
+	 db.printState();
+	 
+	 User u4 = db.getUserById(1);
+	 
+	 System.out.println("Name: "+u4.Name);	 
    }
 }
