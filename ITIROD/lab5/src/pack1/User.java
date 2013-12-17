@@ -1,5 +1,7 @@
+package pack1;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+
 
 public class User {
 	static DataBase db = new DataBase();

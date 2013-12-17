@@ -2,6 +2,7 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/log4j 2"/>
 	<classpathentry kind="lib" path="C:/dbdriver/sqljdbc_4.0/enu/sqljdbc4.jar"/>
 	<classpathentry kind="lib" path="C:/dbdriver/sqlserverjdbc.jar"/>
 	<classpathentry kind="var" path="CLASSPATH"/>

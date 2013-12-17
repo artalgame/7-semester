@@ -1,3 +1,4 @@
+package pack1;
 import static org.junit.Assert.*;
 
 import java.sql.SQLException;
@@ -5,6 +6,7 @@ import java.sql.SQLException;
 import junit.framework.Assert;
 
 import org.junit.Test;
+
 
 
 public class MainTest {
