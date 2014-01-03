@@ -25,6 +25,10 @@ namespace Lab_1
             simplexMethod.plan = DenseVector.OfEnumerable(new double[] {0, 0, 1, 1});
             simplexMethod.basis = DenseVector.OfEnumerable(new double[] {2, 3});
 
+            Console.WriteLine(@"b: {1, 1}");
+            Console.WriteLine(@"c: {1, 4, 1, -1}");
+            Console.WriteLine(@"base plan: {0, 0, 1, 1}");
+
             simplexMethod.ExecuteSteps();
             Console.Read();
         }

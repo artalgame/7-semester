@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<project name="lab5DataBases" default="main" basedir=".">
+<project name="lab5DataBases" default="pack1.main" basedir=".">
 
   <property name="src.dir" location="src" />
   <property name="build.dir" location="bin" />
@@ -21,11 +21,10 @@
   <target name="compile" depends="clean, makedir">
     <javac srcdir="${src.dir}" destdir="${build.dir}">
     </javac>
-
   </target>
 
   <target name="docs" depends="compile">
-    <javadoc packagenames="src" sourcepath="${src.dir}" destdir="${docs.dir}">
+    <javadoc packagenames="pack1" sourcepath="${src.dir}" destdir="${docs.dir}">
       <!-- Define which files / directory should get included, we include all -->
        <fileset dir="${src.dir}">
                 <include name="**" />
@@ -34,9 +33,9 @@
   </target>
 
   <target name="jar" depends="compile">
-    <jar destfile="${dist.dir}\pack.main.jar" basedir="${build.dir}">
+    <jar destfile="${dist.dir}\pack1.main.jar" basedir="${build.dir}">
       <manifest>
-        <attribute name="Main-Class" value="pack.Main" />
+        <attribute name="Main-Class" value="pack1.Main" />
       </manifest>
     </jar>
   </target>
@@ -47,7 +46,7 @@
   
   <target name="junit" depends="compile">
     <junit printsummary="on" fork="true" haltonfailure="yes">
-      <classpath refid="pack" />
+      <classpath refid="pack1" />
       <formatter type="xml" />
       <batchtest todir="${test.report.dir}">
         <fileset dir="${src.dir}">
